@@ -9,8 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-namespace: "demo"
     backstage.io/kubernetes-id: "demoreactapp3"
-    janus-idp.io/tekton: "demoreactapp3"
-    backstage.io/kubernetes-label-selector: "deployment=demoreactapp3"
+    janus-idp.io/tekton: "demoreactapp3" 
   links:
     - title: Documentation
       url: "https://github.com/ocp-rhdh-poc/demoreactapp3"
