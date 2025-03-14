@@ -4,7 +4,7 @@ metadata:
   name: "demoreactapp3"
   description: "demoreactapp3 for Red Hat Developer Hub"
   annotations:
-    argocd/app-selector: rht-gitops.com/demo=demoreactapp3
+    argocd/app-selector: rht-gitops.com/demo=demoreactapp3-bootstrap
     github.com/project-slug: "ocp-rhdh-poc/demoreactapp3"
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-namespace: "demo"
