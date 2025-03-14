@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demoreactapp3"
+  description: "demoreactapp3 for Red Hat Developer Hub"
+  annotations:
+    github.com/project-slug: "ocp-rhdh-poc/demoreactapp3"
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-namespace: "demo"
+    backstage.io/kubernetes-id: "demoreactapp3"
+    janus-idp.io/tekton: "demoreactapp3"
+    backstage.io/kubernetes-label-selector: "deployment=demoreactapp3"
+  links:
+    - title: Documentation
+      url: "https://github.com/ocp-rhdh-poc/demoreactapp3"
+    - url: "https://devspaces.apps.67c1045bd8856f9bb04f2985.am1.techzone.ibm.com/#https://github.com/ocp-rhdh-poc/demoreactapp3"
+      title: OpenShift Dev Spaces (VS Code)
+      icon: web
+  tags:
+    - react
+    - argocd
+    - buildconfig
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/rhdh"
